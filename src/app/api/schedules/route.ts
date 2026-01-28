@@ -1,7 +1,7 @@
 // app/api/schedules/route.ts
 import { NextResponse } from 'next/server';
 
-const API_URL = 'http://100.31.240.45:8080/schedules';
+const API_URL = 'http://api.serfuh.dev:8080/schedules';
 
 export async function GET() {
   try {
