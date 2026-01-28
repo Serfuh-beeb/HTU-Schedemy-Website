@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server';
 
 export async function GET() {
   try {
-    const res = await fetch('http://api.serfuh.dev:8080/instructor?departmentName=COMPUTER_SCIENCE', {
+    const res = await fetch('https://api.serfuh.dev/instructor?departmentName=COMPUTER_SCIENCE', {
       cache: 'no-store',
     });
 
@@ -25,7 +25,7 @@ export async function POST(request: Request) {
     try {
       const body = await request.json();
   
-      const res = await fetch('http://api.serfuh.dev:8080/instructor', {
+      const res = await fetch('https://api.serfuh.dev/instructor', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

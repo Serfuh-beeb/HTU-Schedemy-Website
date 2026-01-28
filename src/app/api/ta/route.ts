@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 
-const TA_API_URL = 'http://api.serfuh.dev:8080/instructor/ta';
+const TA_API_URL = 'https://api.serfuh.dev/instructor/ta';
 
 export async function GET() {
   try {
